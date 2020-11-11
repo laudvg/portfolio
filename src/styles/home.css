@@ -1,0 +1,57 @@
+.home-b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.hello-block{
+  font-size: 10px;
+  width: 26rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hello-block h2{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 7rem;
+  text-align: left;
+}
+
+.hello{
+  color:white;
+  width:25rem;
+  background-color: darkorange;
+  font-family: 'Big Shoulders Inline Display', cursive;
+  font-size: 10rem;
+  margin: 0px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pro-block{
+  width: 20rem;
+  height: 30rem;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: .2rem;
+  border-radius: 3px;
+  border-style: solid;
+  
+}
+
+.profile_pic{
+  height: 23rem;
+  align-items: center;
+  object-fit: cover;
+}
+
+
+.profesion{
+  font-family: 'Archivo Black', sans-serif;
+  text-align: left;
+}
