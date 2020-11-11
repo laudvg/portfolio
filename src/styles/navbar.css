@@ -28,3 +28,25 @@
   padding-right: 1.5rem;
   font-family: 'Archivo Black', sans-serif;
 }
+
+/* footer */
+
+.f-links{
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.f-links a{
+  color: tomato;
+  padding-right: 1.5rem;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  height: 3rem;
+  width: 100%;
+  background-color: rgba(0, 128, 128, 0.514);
+  box-shadow: 0 -1px 6px rgba(94, 94, 94, 0.308);
+}
