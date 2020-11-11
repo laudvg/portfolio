@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link, NavLink } from "react-rou
 import About from "./About"
 import Others from "./Others"
 import Contact from "./Contact"
+import './Navbar.css'
 
 
 function Navbar() {
@@ -12,10 +13,10 @@ function Navbar() {
         <div class="navbar navbar-expand-lg navbar-light bg-light">
           <p class="navbar-brand">Laura Vivas //  Web Developer</p>
           <div className='navbar-nav mr-auto'>
-            <NavLink ClassName="nav-item nav-link active" to='/'>Home</NavLink>
-            <NavLink ClassName="nav-item nav-link" to='/about'>About</NavLink>
-            <NavLink ClassName="nav-item nav-link" to='/others'>Others</NavLink>
-            <NavLink ClassName="nav-item nav-link" to='/contact'>Contact</NavLink>
+            <NavLink ClassName="active" to='/'>Home</NavLink>
+            <NavLink ClassName="" to='/about'>About</NavLink>
+            <NavLink ClassName="" to='/others'>Others</NavLink>
+            <NavLink ClassName="" to='/contact'>Contact</NavLink>
           </div>
         </div>
         <Switch>
