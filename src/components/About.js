@@ -9,9 +9,9 @@ function About() {
       <div className="about">
         <div>
           <h1>Me</h1>
-          <div>
-            <a target="_blank" href="https://www.linkedin.com/in/lauravivasgamboa/"><button>LinkedIn</button></a>
-            <a target="_blank" href="https://drive.google.com/file/d/1_jrvPB7KUs-0JTcLZsK4RgDv5HYhyZ9r/view?usp=sharing"><button>CV</button></a>
+          <div className="buttons">
+            <a className="button" target="_blank" href="https://www.linkedin.com/in/lauravivasgamboa/">LinkedIn</a>
+            <a className="button" target="_blank" href="https://drive.google.com/file/d/1_jrvPB7KUs-0JTcLZsK4RgDv5HYhyZ9r/view?usp=sharing">CV</a>
           </div>
         </div>
 

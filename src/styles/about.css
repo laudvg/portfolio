@@ -32,14 +32,28 @@
   text-align: left;
 }
 
-.about button{
+.buttons{
+  margin-top: 2rem;
+}
+
+.button{
   color: white;
   font-family: 'Archivo Black', sans-serif;
   font-size: 1.2rem;
-  background-color: #f44336;
+  background-color: tomato;
   text-decoration: none;
   border: none;
   margin: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding: .5rem 3rem;
+}
+
+.button:hover{
+  text-decoration: none;
+  background-color: #92261f;
+  color: rgb(180, 180, 180);
+}
+
+.button:hover{
+  border: none;
 }
