@@ -1,0 +1,45 @@
+.about{
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top: 4rem;
+}
+
+.about h1{
+  color:white;
+  width:24rem;
+  background-color: darkorange;
+  font-family: 'Big Shoulders Inline Display', cursive;
+  font-size: 10rem;
+  margin: 0px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.description{
+  width: 20rem;
+  border-radius: 3px;
+  border-style: solid;
+  padding: .2rem;
+  margin-left: .5rem;
+}
+
+.description h2{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.about button{
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.2rem;
+  background-color: #f44336;
+  text-decoration: none;
+  border: none;
+  margin: 1rem;
+  margin-top: 2rem;
+  padding: .5rem 3rem;
+}
