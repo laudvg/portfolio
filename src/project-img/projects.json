@@ -1,0 +1,36 @@
+[
+  {
+    "id":1,
+    "tittle": "Burguer Kills",
+    "img": "burguer_portada.png",
+    "descriptionTitle": "Videogame",
+    "description": "Creation of a video game, using the Canvas tool in Javascript.",
+    "repo": "https://github.com/laudvg/BurguerKills",
+    "link": "https://laudvg.github.io/BurguerKills/"
+  },
+  {
+    "id":2,
+    "tittle": "Until Sunrise",
+    "img": "burguer_portada.png",
+    "descriptionTitle": "Mern Web Application",
+    "description": "Creation of a backend application in MongoDB",
+    "repo": "https://github.com/Ironhack-P2-EC-LV/Ironhack-p2-estefania-laura",
+    "link": "http://until-sunrise.herokuapp.com/auth/login"
+  },
+  {
+    "id":3,
+    "tittle": "Friendzone",
+    "img": "burguer_portada.png",
+    "descriptionTitle": "Backend Web Api",
+    "description": "Creation of a full stack application in MongoDB, Express.JS, React and Node. Used WebSockets.",
+    "repo": "https://github.com/Ironhack-P2-EC-LV/Ironhack-p2-estefania-laura",
+    "link": "http://until-sunrise.herokuapp.com/auth/login"
+  },
+  {
+    "id":4,
+    "tittle": "Project",
+    "img":"burguer_portada.png",
+    "description": "nsnsnsnns"
+  }
+
+]

@@ -1,5 +1,8 @@
 import React from 'react';
 import UseProject from './Project';
+import Data from '../project-img/projects.json'
+import '../styles/project.css'
+
 // import ErrorComponent from './Error';
 // import Loading from './Loading';
 
@@ -10,7 +13,7 @@ const UseProjects = () => {
   // if (error) return <ErrorComponent />;
 
   return (
-    <div>
+    <div className="projects">
       <UseProject/>
     </div>
   )
