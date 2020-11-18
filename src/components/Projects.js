@@ -3,21 +3,16 @@ import UseProject from './Project';
 import Data from '../project-img/projects.json'
 import '../styles/project.css'
 
-// import ErrorComponent from './Error';
-// import Loading from './Loading';
-
-const UseProjects = () => {
-  // const { loading, error, data } = useQuery(GET_USER);
-
-  // if (loading) return <Loading />;
-  // if (error) return <ErrorComponent />;
+function UseProjects(){
+  console.log(Data)
 
   return (
-    <div className="projects">
-      <UseProject/>
-    </div>
+      <div className="projects"> 
+        {Data.map(project => {return (<UseProject  {...project} key={project.id} />)})}
+      </div>
   )
-
+  
 }
 
 export default UseProjects;
+

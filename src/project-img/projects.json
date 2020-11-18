@@ -22,15 +22,8 @@
     "tittle": "Friendzone",
     "img": "burguer_portada.png",
     "descriptionTitle": "Backend Web Api",
-    "description": "Creation of a full stack application in MongoDB, Express.JS, React and Node. Used WebSockets.",
-    "repo": "https://github.com/Ironhack-P2-EC-LV/Ironhack-p2-estefania-laura",
-    "link": "http://until-sunrise.herokuapp.com/auth/login"
-  },
-  {
-    "id":4,
-    "tittle": "Project",
-    "img":"burguer_portada.png",
-    "description": "nsnsnsnns"
+    "description": "Creation of an aplication using MERN stack. Used WebSockets.",
+    "repo": "https://github.com/laudvg/Friendzone",
+    "link": "https://hello-friendzone.herokuapp.com/"
   }
-
 ]
