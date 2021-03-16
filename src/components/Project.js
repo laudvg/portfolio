@@ -4,6 +4,7 @@ import '../styles/project.css'
 function UseProject({tittle, descriptionTitle, description, link, repo, img}){
 
   return (
+    <div className="projects">
     <div className="project">
       <div className ="first">
         <h2 className="tittle">{tittle}</h2>
@@ -17,6 +18,7 @@ function UseProject({tittle, descriptionTitle, description, link, repo, img}){
         <h4>{descriptionTitle}</h4>
         <h6>{description}</h6>
       </div>
+    </div>
     </div>
   )
 }
