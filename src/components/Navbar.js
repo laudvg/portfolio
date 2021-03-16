@@ -19,7 +19,7 @@ function Navbar() {
             <NavLink ClassName="link active" to='/home'>Home</NavLink>
             <NavLink ClassName="link" to='/about'>About</NavLink>
             <NavLink ClassName="link" to='/project'>Projects</NavLink>
-            <NavLink ClassName="link" to='/others'>Others</NavLink>
+            {/* <NavLink ClassName="link" to='/others'>Others</NavLink> */}
             <NavLink ClassName="link" to='/contact'>Contact</NavLink>
           </div>
         </div>
@@ -27,7 +27,7 @@ function Navbar() {
           <Route exact path="/home"><Home/></Route>
           <Route exact path="/about"><About/></Route>
           <Route exact path="/project"><Projects/></Route>
-          <Route exact path="/others"><Others/></Route>
+          {/* <Route exact path="/others"><Others/></Route> */}
           <Route exact path="/contact"><Contact/></Route>
         </Switch>
       </Router>

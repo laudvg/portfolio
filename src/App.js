@@ -1,20 +1,17 @@
 import './App.css';
 // import {BrowserRouter as Link} from "react-router-dom";
 import Navbar from './components/Navbar'
-// import data from './project-img'
-// import Footer from './components/Footer';
-
-
+import Footer from './components/Footer';
+import Home from './components/Home';
+import laura from './img/laura.png'
 
 
 function App() {
   return (
-    // <div data={data} className="App">
       <div className="App">
-
       <Navbar/>
-      
-      {/* <Footer/>  */}
+
+      <Footer/> 
     </div>
   );
 }
