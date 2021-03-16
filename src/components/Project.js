@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import laura from '../project-img/burguer_portada.png'
 import '../styles/project.css'
-
 
 function UseProject({tittle, descriptionTitle, description, link, repo, img}){
 
@@ -15,7 +13,7 @@ function UseProject({tittle, descriptionTitle, description, link, repo, img}){
         </div>
       </div>
       <div className ="second">
-        <img className="project_pic" src={laura} alt="Projectpic" />
+        <img className="project_pic" src={img} alt="Projectpic" />
         <h4>{descriptionTitle}</h4>
         <h6>{description}</h6>
       </div>

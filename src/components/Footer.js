@@ -1,8 +1,8 @@
-import React, {useState} from 'react'
-import { BrowserRouter as Router, Switch, Route, Link, NavLink } from "react-router-dom";
-import Contact from "./Contact"
-import Home from "./Home"
-import About from './About'
+import React from 'react'
+// import { BrowserRouter as Router, Switch, Route, Link, NavLink } from "react-router-dom";
+// import Contact from "./Contact"
+// import Home from "./Home"
+// import About from './About'
 import '../styles/navbar.css'
 
 function Footer() {

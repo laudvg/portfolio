@@ -1,8 +1,8 @@
-[
+export const projects = [
   {
     "id":1,
     "tittle": "Burguer Kills",
-    "img": "burguer_portada.png",
+    "img": "https://i.imgur.com/XnAkkqh.png",
     "descriptionTitle": "Videogame",
     "description": "Creation of a video game, using the Canvas tool in Javascript.",
     "repo": "https://github.com/laudvg/BurguerKills",
@@ -11,7 +11,7 @@
   {
     "id":2,
     "tittle": "Until Sunrise",
-    "img": "burguer_portada.png",
+    "img": "https://i.imgur.com/1vAWRja.jpg",
     "descriptionTitle": "Mern Web Application",
     "description": "Creation of a backend application in MongoDB",
     "repo": "https://github.com/Ironhack-P2-EC-LV/Ironhack-p2-estefania-laura",
@@ -20,7 +20,7 @@
   {
     "id":3,
     "tittle": "Friendzone",
-    "img": "burguer_portada.png",
+    "img": "https://i.imgur.com/98ZZxlU.png",
     "descriptionTitle": "Backend Web Api",
     "description": "Creation of an aplication using MERN stack. Used WebSockets.",
     "repo": "https://github.com/laudvg/Friendzone",

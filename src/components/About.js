@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link, NavLink,Redirect } from "react-router-dom";
 import '../styles/about.css'
 
 
@@ -11,7 +10,7 @@ function About() {
           <h1>Me</h1>
           <div className="buttons">
             <a className="button" target="_blank" href="https://www.linkedin.com/in/lauravivasgamboa/">LinkedIn</a>
-            <a className="button" target="_blank" href="https://drive.google.com/file/d/1_jrvPB7KUs-0JTcLZsK4RgDv5HYhyZ9r/view?usp=sharing">CV</a>
+            <a className="button" target="_blank" href="https://drive.google.com/file/d/1pgr_mHc6z5pnqHx6z8-7j6hYrenM92w8/view?usp=sharing">CV</a>
           </div>
         </div>
 

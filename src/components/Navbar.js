@@ -13,8 +13,8 @@ function Navbar() {
   return (
     <div>
       <Router>
-        <div class="navBar">
-          <p class="company">LDVG</p>
+        <div className="navBar">
+          <p className="company">LDVG</p>
           <div className='links'>
             <NavLink ClassName="link active" to='/home'>Home</NavLink>
             <NavLink ClassName="link" to='/about'>About</NavLink>
