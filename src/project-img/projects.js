@@ -2,7 +2,7 @@ export const projects = [
   {
     "id":1,
     "tittle": "Burguer Kills",
-    "img": "https://i.imgur.com/XnAkkqh.png",
+    "img": "https://i.imgur.com/zoPaxIK.png",
     "descriptionTitle": "Videogame",
     "description": "Creation of a video game, using the Canvas tool in Javascript.",
     "repo": "https://github.com/laudvg/BurguerKills",
@@ -20,7 +20,7 @@ export const projects = [
   {
     "id":3,
     "tittle": "Friendzone",
-    "img": "https://i.imgur.com/98ZZxlU.png",
+    "img": "https://i.imgur.com/FCq1SoH.png",
     "descriptionTitle": "Backend Web Api",
     "description": "Creation of an aplication using MERN stack. Used WebSockets.",
     "repo": "https://github.com/laudvg/Friendzone",

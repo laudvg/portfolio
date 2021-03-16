@@ -14,7 +14,9 @@ function UseProject({tittle, descriptionTitle, description, link, repo, img}){
         </div>
       </div>
       <div className ="second">
-        <img className="project_pic" src={img} alt="Projectpic" />
+        <a href={link} target="_blank">
+        <img className="project_pic" src={img} alt="Projectpic"  />
+        </a>
         <h4>{descriptionTitle}</h4>
         <h6>{description}</h6>
       </div>
